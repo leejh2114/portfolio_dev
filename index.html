@@ -12,21 +12,28 @@
                 text-align: center; 
                 margin-bottom: 50px;
             }
+
+            .card {
+                text-align: center;
+            }
         </style>
     </head>
     <body>
-        <h1>Portfolio_dev</h1>
-        <div id="txt_welcome">
-            portfolio
-            <br>
-            <br>
-            <a> login </a>
+        <h1>Portfolio JH</h1><br>
+        <div id = "txt_welcome">
+            Welcome yo JH Portfolio! <br>
         </div>
-        <div>
-            <div class="portfolio">
-                <img class="card_img" src="./img/redRacket.png">
-                <p> first project </p>
-                <input class="card_button" type="button" value="button">
+        <div style="display:grid; grid-template-columns: 1fr 1fr;">
+            <div class="card">
+                <img class="card_img" src="./img/pfm.png">
+                <p>Ticketing Website project </p>
+                <input class="card_button" type="button" value="button" onclick="alert('해당 페이지로이동');">
+            </div>
+
+            <div class="card">
+                <img class="card_img" src="./img/Tennis.png">
+                <p>Tennis market project </p>
+                <input class="card_button" type="button" value="button" onclick="alert('해당 페이지로이동');">
             </div>
         </div>
     </body>
